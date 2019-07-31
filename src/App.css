@@ -1,0 +1,33 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    margin: o auto;
+
+}
+
+
+
+
+.header {
+    grid-column: 1/-1;
+    height: 60px;
+    background-color: #223369;
+}
+
+.nav {
+    grid-column: 1/3;
+    background-color: #658974;
+}
+
+.content {
+    grid-column: 3/-1;
+    background-color: #780241;
+}
+
+.footer {
+    grid-column: 1/-1;
+    background-color: #114744;
+    height: 100px;
+
+}
